@@ -1,0 +1,288 @@
+body {
+  margin: 0;
+}
+.one {
+  background-color: #f1f8e8;
+  min-height: 100vh;
+  margin: auto;
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  height: calc(100vh - 65px);
+}
+
+.two {
+  background-color: #629677;
+
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading {
+  font-size: 60px;
+  margin-top: -2vh;
+  font-family: sans-serif;
+  text-align: center;
+}
+.sub-heading {
+  margin-top: -4vh;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: center;
+}
+.welcome {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+}
+
+.wlcome-img {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.img-class {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.about-heading {
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: white;
+  text-align: center;
+}
+.about-sub-heading {
+  font-size: 1.25rem;
+  line-height: 2rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  color: white;
+  text-align: center;
+  padding: 0 30px;
+}
+
+.three {
+  background-color: #d8efd3;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+}
+.title-journey {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  justify-items: center;
+}
+.journey {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  height: 100%;
+}
+
+.my-journey {
+  width: 50%;
+  height: 100%;
+  position: relative;
+}
+.journey-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: black;
+}
+.my-journey .sub-title {
+  text-align: left;
+  font-weight: 600;
+  font-size: 1.2rem;
+  line-height: 2rem;
+  color: black;
+}
+.tech-heading {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+}
+.tech-content {
+  display: flex;
+  width: 530px;
+}
+.tech-sub-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  width: 65%;
+}
+.logo-size {
+  width: 80px;
+  height: 80px;
+}
+.four {
+  background-color: #55ad9b;
+  min-height: 100vh;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 40px;
+  min-height: 100vh;
+}
+.contact-heading .contact-head{
+  display: flex;
+  justify-content: center;
+  width: 37%;
+  height: 100%;
+  position: relative;
+  font-weight: 700;
+  font-size: 1.8rem;
+  line-height: 2rem;
+  color: black;
+
+
+
+}
+
+.contact-heading{
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+}
+
+.connect-content{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 530px;
+}
+
+.conclusion{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  color: black;
+  
+}
+
+.contact-form{
+  display: flex;
+  width: 530px;
+  flex-direction: column;
+  gap: 20px;
+
+}
+.contact-alignment {
+  display: flex;
+  justify-content: space-between;
+  justify-items: center;
+}
+
+
+/* Input styles */
+
+.custom-field.custom-input input {
+  background: ncustom-input;
+  border: 2px solid #ddd;
+  transition: border-color 0.3s ease;
+}
+
+.custom-field.custom-input input + .placeholder {
+  left: 8px;
+  padding: 0 5px;
+}
+
+.custom-field.custom-input input.dirty,
+.custom-field.custom-input input:not(:placeholder-shown),
+.custom-field.custom-input input:focus {
+  border-color: #222;
+  transition-delay: 0.1s
+}
+
+.custom-field.custom-input input.dirty + .placeholder,
+.custom-field.custom-input input:not(:placeholder-shown) + .placeholder,
+.custom-field.custom-input input:focus + .placeholder {
+  top: 0;
+  font-size: 10px;
+  color: #222;
+  background: #fff;
+  width: auto
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+.custom-field {
+  position: relative;
+  font-size: 14px;
+  border-top: 20px solid transparent;
+  margin-bottom: 5px;
+  display: inline-block;
+  --field-padding: 12px;
+}
+
+.custom-field input {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: var(--field-padding);
+  border-radius: 3px;
+  width: 250px;
+  outline: none;
+  font-size: 14px;
+}
+
+.custom-field .placeholder {
+  position: absolute;
+  left: var(--field-padding);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  top: 22px;
+  line-height: 100%;
+  transform: translateY(-50%);
+  color: black;
+  transition: 
+    top 0.3s ease,
+    color 0.3s ease,
+    font-size 0.3s ease;
+}
+
+.form-section {
+  display: flex;
+  justify-items: center;
+  justify-content: space-between;
+  gap: 30px;
+}
+.sub-button {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  font-size: large;
+  border-radius: 8px;
+}
