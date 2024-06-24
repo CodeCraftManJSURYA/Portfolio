@@ -145,7 +145,6 @@ body {
   flex-direction: column;
   justify-content: center;
   padding: 0 40px;
-  min-height: 100vh;
 }
 .contact-heading .contact-head{
   display: flex;
@@ -199,6 +198,11 @@ body {
   justify-items: center;
 }
 
+.final{
+  font-weight: 300;
+  font-size: 1.5rem;
+  margin: 10px;
+}
 
 /* Input styles */
 
